@@ -1,9 +1,9 @@
 package hdu.crm.domain;
 
 public class contact {
-    
+
     private String name; //联系人姓名
-    private long id;     //客户id
+    private long num;    //客户标号
     private String tel;  //联系人电话
 
     public String getName() {
@@ -15,11 +15,11 @@ public class contact {
     }
 
     public long getId() {
-        return id;
+        return num;
     }
 
     public void setId(long id) {
-        this.id = id;
+        this.num = num;
     }
 
     public String getTel() {

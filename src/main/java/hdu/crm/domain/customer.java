@@ -4,7 +4,7 @@ public class customer {
     private String name;   //名称
     private String tel;    //电话
     private String address;//地址
-    private long id;       //id
+    private long num;    //编号
     private String notes;  //备注
     private int credit;    //积分
 
@@ -32,12 +32,12 @@ public class customer {
         this.address = address;
     }
 
-    public long getId() {
-        return id;
+    public long getNum() {
+        return num;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setNum(long id) {
+        this.num = num;
     }
 
     public String getNotes() {
