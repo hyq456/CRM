@@ -2,14 +2,14 @@ package hdu.crm.domain;
 
 public class employee {
 
-    private long number;
-    private String name;
-    private int sex;
-    private String tel;
-    private String pw;
-    private boolean isEmpty;
-    private String note;
-    
+    private long number; //员工编号
+    private String name; //姓名
+    private int sex;     //性别
+    private String tel;  //电话
+    private String pw;   //密码
+    private boolean isEmpty; //是否空闲，true为空闲，false为非空闲
+    private String note; //备注
+
     public long getNumber() {
         return number;
     }
