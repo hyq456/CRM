@@ -1,3 +1,5 @@
+<!DOCTYPE html> 
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <title>springboot登录</title>
@@ -9,6 +11,7 @@
 </head>
 <body>
 <div >
+    <h3 th:text="${info}"></h3>
     <form name="form" accept-charset="utf-8"  action="/loginVerify" method="post">
         <ul >
             <li>
@@ -32,3 +35,4 @@
     </form>
 </div>
 </body>  
+</html> 
