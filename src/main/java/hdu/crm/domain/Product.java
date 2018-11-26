@@ -1,6 +1,6 @@
 package hdu.crm.domain;
 
-public class product {
+public class Product {
     private long num; //产品编号
     private  String variety; //种类
     private  int count;  //数量

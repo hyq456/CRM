@@ -1,6 +1,6 @@
 package hdu.crm.domain;
 
-public class employee {
+public class Employee {
 
     private long number; //员工编号
     private String name; //姓名

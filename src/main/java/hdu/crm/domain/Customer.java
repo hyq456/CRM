@@ -1,6 +1,6 @@
 package hdu.crm.domain;
 
-public class customer {
+public class Customer {
     private String name;   //名称
     private String tel;    //电话
     private String address;//地址

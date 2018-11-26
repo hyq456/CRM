@@ -2,7 +2,7 @@ package hdu.crm.domain;
 
 import java.util.Date;
 
-public class order {
+public class Order {
 
     private long num;//订单号
     private String status;//状态
