@@ -1,6 +1,6 @@
 package hdu.crm.domain;
 
-public class saleOpportunity {
+public class SaleOpportunity {
     private long num; //机会号
     private long employeeNum; //员工号
     private String contactName; //联系人名称

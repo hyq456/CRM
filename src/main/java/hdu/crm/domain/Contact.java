@@ -1,6 +1,6 @@
 package hdu.crm.domain;
 
-public class contact {
+public class Contact {
 
     private String name; //联系人姓名
     private long num;    //客户标号
