@@ -52,7 +52,22 @@ public class LoginController {
 
         }
     }
+    /*
+    @PostMapping("/loginVerify")
+    public String loginVerify(String username,String password,HttpSession session){
+        Employee emp = new Employee();
+        emp.setNumber(Long.parseLong(username));
+        emp.setPw(password);
 
+        boolean verify = loginService.verifyLogin(emp);
+        if (verify) {
+            session.setAttribute(WebSecurityConfig.SESSION_KEY, username);
+            return "index";
+        } else {
+            return "redirect:/login";
+        }
+    }
+    */
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         session.removeAttribute(WebSecurityConfig.SESSION_KEY);
